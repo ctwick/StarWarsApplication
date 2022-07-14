@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'swapp (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for swapp (iOS)
+  pod 'RxSwift'
+  pod 'RxAlamofire'
+
+end
+
+target 'swapp (macOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for swapp (macOS)
+  pod 'RxSwift'
+  # pod 'RxAlamofire'
+  
+end
